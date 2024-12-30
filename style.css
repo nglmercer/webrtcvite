@@ -45,12 +45,12 @@ Documentation - github.com/muaz-khan/WebRTC-Experiment/tree/master/getMediaEleme
   background: black;
   border: 1px solid rgb(107, 107, 107);
   margin: 1px;
+  object-fit: cover;
 }
 
 .media-controls, .volume-control {
   margin-top: 2px;
   position: absolute;
-  margin-left: 5px;
   z-index: 100;
   opacity: 0;
 }
