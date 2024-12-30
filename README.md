@@ -5,9 +5,9 @@
 
 ### USE
 also you can clone and build this project
-´´´
+```
 git clone https://github.com/nglmercer/webrtcvite/
 cd webrtcvite
 npm install
 npm run dev
-´´´
+```
