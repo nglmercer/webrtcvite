@@ -17,10 +17,11 @@ connection.sdpConstraints.mandatory = {
 console.log('rtcMultiConnection', connection);
 connection.iceServers = [{
 'urls': [
-'stun:stun.l.google.com:19302',
-'stun:stun1.l.google.com:19302',
-'stun:stun2.l.google.com:19302',
-'stun:stun.l.google.com:19302?transport=udp',
+    "stun:stun.relay.metered.ca:80",
+    "turn:global.relay.metered.ca:80",
+    "turn:global.relay.metered.ca:80?transport=tcp",
+    "turn:global.relay.metered.ca:443",
+    "turns:global.relay.metered.ca:443?transport=tcp",
 ]
 }];
 connection.videosContainer = document.getElementById('videos-container');
