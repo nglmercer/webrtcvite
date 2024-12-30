@@ -1,7 +1,7 @@
 import 'webrtc-adapter';
 import RTCMultiConnection from 'rtcmulticonnection';    
 var connection = new RTCMultiConnection();
-connection.socketURL = 'http://localhost:9001/';
+connection.socketURL = 'https://adhesive-deadpan-braid.glitch.me/';//'http://localhost:9001/';
 connection.socketMessageEvent = 'video-broadcast-demo';
 
 connection.session = {
