@@ -1,0 +1,22 @@
+{
+  "name": "webrtc-chat",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.4.2"
+  },
+  "dependencies": {
+    "rtcmulticonnection": "^3.7.1",
+    "socket.io-client": "^4.8.1",
+    "webrtc-adapter": "^9.0.1"
+  }
+}
