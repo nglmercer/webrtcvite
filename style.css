@@ -2,12 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-/*
-Muaz Khan     - www.MuazKhan.com
-MIT License   - www.WebRTC-Experiment.com/licence
-Documentation - github.com/muaz-khan/WebRTC-Experiment/tree/master/getMediaElement
-*/
+
 /* styles.css */
+:root {
+  --background-color: transparent;
+  --text-color: black;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: black;
+    --text-color: white;
+  }
+}
+
+/* Aplicar las variables al body */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 .btn-blue-black {
   @apply bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-black hover:text-blue-500 transition duration-300;
 }

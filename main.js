@@ -1,7 +1,7 @@
 import 'webrtc-adapter';
 import RTCMultiConnection from 'rtcmulticonnection';    
 var connection = new RTCMultiConnection();
-connection.socketURL = 'https://delicious-showy-provelone.glitch.me/';//'http://muazkhan.com:9001/';https://adhesive-deadpan-braid.glitch.me/
+connection.socketURL = 'https://muazkhan.com:9001/';//'http://muazkhan.com:9001/';https://adhesive-deadpan-braid.glitch.me/
 connection.socketMessageEvent = 'video-broadcast-demo';
 
 connection.session = {
