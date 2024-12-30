@@ -48,6 +48,10 @@ Documentation - github.com/muaz-khan/WebRTC-Experiment/tree/master/getMediaEleme
   border: 1px solid rgb(107, 107, 107);
   margin: 1px;
   object-fit: cover;
+  video {
+    object-fit: cover;
+    background-size: cover ;
+  }
 }
 
 .media-controls, .volume-control {
